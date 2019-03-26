@@ -12,11 +12,11 @@ def translate(w):
         if yn == "Y":
             return data[get_close_matches(w, data.keys()) [0]]
         elif yn == "N":
-            return "Check the word, you dumb cunt!"
+            return "Check the word!"
         else:
-            return "Y or N, dumbass!"
+            return "Y or N!"
     else:
-        return "Check the word, you dumb cunt!"
+        return "Check the word!"
 
 word = input("Enter word: ")
 
